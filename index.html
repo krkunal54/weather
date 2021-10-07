@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+
+    <div class="search-city">
+        <input type="text" placeholder="Enter the city" class="input_text">
+        <input type="submit" value="Search" class="submit_btn">
+    </div>
+    <div class="location">
+        <h1 class="location-timezone">Timezone </h1>
+        <div class="weather-icon">
+            <img src="./icons/02d.png" id="iconWeather" alt="Weather">
+        </div>
+    </div>
+    <div class="tempreture">
+        <h2 class="tempreture-degree">34</h2>
+        <div class="summary"></div>
+        <div class="tempreture-description">It's cold</div>
+    </div>
+
+    <script src="./app.js"></script>
+    <!-- <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlLCXo9ThY2Q5h3vFEnT-qEdv6kN0buD4&libraries=places&callback=initMap"></script> -->
+</body>
+
+</html>

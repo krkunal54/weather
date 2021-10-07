@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(47, 213, 255);
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.input_text {
+    width: 200px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 11px;
+    text-align: center;
+    background-color: white;
+}
+
+.search-city {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.submit_btn {
+    cursor: pointer;
+    border: 3px solid aliceblue;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.submit_btn:hover {
+    color: rgb(214, 88, 65);
+    background-color: darkgrey;
+    border: 3px solid darkgrey;
+}
+
+.location {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
